@@ -1,0 +1,25 @@
+Nama : Axl Aditya Persada
+NIM : 224308029
+Kelas : TKA-6B
+Akun Github (Tautan) : https://github.com/axladitya 
+Student Lab Assistant :Mbak Dwi
+
+Analisis dan Diskusi : 
+  Analisis Hasil:
+1. Bagaimana akurasi deteksi pose dengan YOLOv8?
+YOLOv8 digunakan untuk mendeteksi objek dan estimasi pose. Model ini menggunakan dataset besar yang mencakup berbagai pose dan kondisi, sehingga mampu memberikan hasil yang baik. Pencahayaan yang baik sangat diperlukan agar model dapat mendeteksi objek dengan jelas. Dalam kondisi pencahayaan yang buruk, model  mengalami kesulitan dalam mengenali pose, yang dapat mengurangi akurasi deteksi. Untuk meningkatkan akurasi, penting untuk menghindari bayangan yang kuat dan memastikan bahwa subjek terlihat jelas. Dengan pencahayaan yang optimal, model dapat berfungsi lebih efektif, sehingga meningkatkan kemampuan deteksi pose secara keseluruhan.
+2. Apakah model bekerja baik di kondisi pencahayaan rendah?
+Karena gambar di kondisi pencahayaan rendah memiliki  noise tinggi dapat menyebabkan kesulitan dalam membedakan antara berbagai pose dideteksi sehingga dapat mengakibatkan akurasinya menjadi berkurang.
+3. Bagaimana YOLOv8 dibandingkan dengan metode HPE lain seperti MediaPipe atau OpenPose? 
+Hasil dari Yolov8 tergantung pada kondisi pencahayaan dan kompleksitas pose. Dalam kondisi  tertentu bentuk tubuh tidak terlihat jelas, akurasi deteksi pose dapat menurun. Selanjutnya, MediaPipe memiliki akurasi yang bagus dalam mendeteksi pose, saat dalam kondisi pencahayaan yang baik maupun kurang jelas. Model ini digunakan  untuk mendeteksi landmark tubuh dengan cukup baik, meskipun, tidak seakurat dalam beberapa model.
+
+Diskusii:
+1. Bagaimana YOLOv8 Pose dapat diterapkan dalam robotika dan otomatisasi industri?
+      YOLOv8 dapat diterapkan dalam robotika dan otomatisasi industri digunakan untuk meningkatkan kemampuan dalam mendeteksi dan pengenalan objek, sehingga dapat digunakan untuk untuk mengidentifikasi dan memanipulasi objek dengan efisien. Teknologi ini mendukung berbagai tugas industri seperti mengambil, menyortir, dan mengangkut barang, yang secara signifikan meningkatkan efisiensi operasional dan akurasi dalam berbagai aplikasi industri. Dalam penerapannya, YOLOv8 memungkinkan pelatihan model yang cepat dan akurat dengan menggunakan dataset yang telah dianotasi, sehingga robot dapat belajar mengenali objek dalam waktu singkat. Kemampuan deteksi objek secara real-time memungkinkan robot untuk beradaptasi dengan cepat terhadap perubahan lingkungan, sehingga dapat meningkatkan responsif.
+2. Apa tantangan dalam mendeteksi pose manusia secara real-time?
+      Tantangan dalam mendeteksi pose manusia secara real-time yaitu membedakan ekspresi wajah dan mengidentifikasi gerakan tangan. Karena dalam ekspresi wajah dapat menghasilkan ekspresi yang hampir serupa, seperti senyum yang sedikit berbeda atau tatapan yang mirip, sehingga menyulitkan model untuk melakukan klasifikasi dengan akurat. Hal ini menjadi lebih rumit ketika ekspresi wajah berubah dengan cepat, seperti saat seseorang berbicara atau tertawa, yang dapat menyebabkan kesalahan dalam pengenalan. Selain itu, mengidentifikasi gerakan tangan juga merupakan sebuah tantangan. Gerakan tangan yang cepat dan Gerak tangan seperti isyarat, dapat menyebabkan kesulitan dalam pelacakan titik-titik land mark dan jika tangan terhalang oleh objek lain atau jika terdapat banyak orang dalam satu frame, model mungkin kesulitan untuk mendeteksi gerakan tersebut dengan benar. Selanjutnya Tantangan pada kondisi pencahayaan dan kondisi lingkungan. Pencahayaan yang buruk atau bayangan yang kuat dapat mempengaruhi kualitas gambar dan mengurangi akurasi deteksi. Selain itu, perbedaan dalam bentuk tubuh, ukuran, dan pakaian individu juga dapat mempengaruhi kemampuan model untuk mendeteksi pose dengan baik.
+      
+      
+      
+3. Bagaimana cara meningkatkan akurasi deteksi pose menggunakan dataset tambahan?
+      Dengan menambahkan dataset Hand Gesture Recognition Image Dataset, akurasi deteksi pose dapat ditingkatkan. Dataset ini memiliki variasi yang besar dalam gerakan tangan dan ekspresi wajah, sehingga model dapat belajar mengenali berbagai pose dan isyarat dengan lebih baik. Dengan dataset ini  model dapat memahami konteks gerakan tangan dalam interaksi manusia. Selain itu, penggunaan dataset ini juga membantu model untuk meningkatkan akurasi terhadap variasi dalam kondisi pencahayaan. Dengan pelatihan, model dapat mengurangi kesalahan deteksi yang sering terjadi akibat perbedaan kecil dalam pose atau gerakan.
